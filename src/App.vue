@@ -2,19 +2,19 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <img class="pl-3" alt="Vue logo" src="./assets/ts.png" width="200" height="200">
-    <TodoItem class="pt-3" title="Hello"/>
+    <TodoList class="pt-3"/>
   </div>
 </template>
 
 <script>
 import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import TodoItem from './components/TodoItem.vue'
+import TodoList from './components/TodoList.vue'
 
 export default {
   name: 'app',
   components: {
-    TodoItem
+    TodoList
   }
 }
 </script>
