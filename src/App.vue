@@ -2,7 +2,7 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <img class="pl-3" alt="Vue logo" src="./assets/ts.png" width="200" height="200">
-    <TodoItem class="pt-3" title="Hello" isDone/>
+    <TodoItem class="pt-3" title="Hello"/>
   </div>
 </template>
 

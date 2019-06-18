@@ -4,8 +4,10 @@
         <div class="card-body">
           <h5 class="card-title"> {{ title }} </h5>
           
-          <a v-if="!isDone" href="#" class="btn btn-danger">Not finished</a>
-          <a v-if="isDone" href="#" class="btn btn-success">Done</a>
+          <a v-bind:class="{ 'btn btn-success': isDone , 'btn btn-danger': !isDone }" href="#">
+            <div v-if="isDone">Done</div>
+            <div v-if="!isDone">Not finished</div>
+          </a>
 
         </div>
       </div>
