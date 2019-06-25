@@ -1,4 +1,7 @@
-# todo-vue
+# Palestra Todolist em Vue para o Terceiro VueTalks de Belo Horizonte
+
+## Link para apresentação
+Disponível [aqui](https://slides.com/alexandrevelloso/deck/fullscreen).
 
 ## Project setup
 ```
