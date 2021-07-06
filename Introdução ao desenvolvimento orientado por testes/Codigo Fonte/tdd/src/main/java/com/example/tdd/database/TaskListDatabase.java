@@ -33,7 +33,7 @@ public class TaskListDatabase {
         Task task = find(id);
 
         task.setName(todo.getName());
-        task.setCompleted(todo.getCompleted());
+        task.setCompleted(todo.isCompleted());
     }
 
     public void delete(int id) {

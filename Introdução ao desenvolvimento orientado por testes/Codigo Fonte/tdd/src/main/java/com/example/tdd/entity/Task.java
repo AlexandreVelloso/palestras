@@ -15,10 +15,6 @@ public class Task {
         this.completed = completed;
     }
 
-    public String getName() {
-        return name;
-    }
-
     public int getId() {
         return id;
     }
@@ -27,11 +23,15 @@ public class Task {
         this.id = id;
     }
 
+    public String getName() {
+        return name;
+    }
+
     public void setName(String name) {
         this.name = name;
     }
 
-    public boolean getCompleted() {
+    public boolean isCompleted() {
         return completed;
     }
 
